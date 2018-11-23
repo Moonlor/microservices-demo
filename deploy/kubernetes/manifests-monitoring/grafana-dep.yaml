@@ -2,7 +2,7 @@ apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
   name: grafana-core
-  namespace: monitoring
+  namespace: monitoring-sock-shop
   labels:
     app: grafana
     component: core

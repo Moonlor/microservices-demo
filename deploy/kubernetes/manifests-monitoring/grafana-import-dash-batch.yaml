@@ -2,7 +2,7 @@ apiVersion: batch/v1
 kind: Job
 metadata:
   name: grafana-import-dashboards
-  namespace: monitoring
+  namespace: monitoring-sock-shop
   labels:
     app: grafana
     component: import-dashboards
